@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShoreRead Privacy Policy</title>
+<meta name="description" content="Privacy policy for ShoreRead, an Android app that tells you whether it is safe to swim. ShoreRead collects no personal data.">
+<meta name="robots" content="index, follow">
+<style>
+:root {
+  --bg: #10141A;
+  --surface: rgba(255, 255, 255, 0.03);
+  --border: rgba(255, 255, 255, 0.10);
+  --text: #E3E8EF;
+  --muted: #94A3B3;
+  --accent: #00D1FF;
+  --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #FFFFFF;
+    --surface: rgba(0, 0, 0, 0.025);
+    --border: rgba(0, 0, 0, 0.12);
+    --text: #1A2029;
+    --muted: #5A6675;
+    --accent: #0077A3;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.65;
+}
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px 96px; }
+header.bar {
+  position: sticky; top: 0; z-index: 10;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 14px 0;
+  margin-bottom: 40px;
+}
+header.bar .wrap { padding-bottom: 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.brand { font-weight: 650; letter-spacing: -0.01em; font-size: 17px; }
+.brand span { color: var(--accent); }
+.langs { display: flex; gap: 4px; }
+.langs button {
+  font: inherit; font-size: 12px; font-family: var(--mono);
+  text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--muted); background: transparent;
+  border: 1px solid var(--border); border-radius: 4px;
+  padding: 5px 11px; cursor: pointer;
+}
+.langs button[aria-pressed="true"] { color: var(--bg); background: var(--accent); border-color: var(--accent); }
+@media (prefers-color-scheme: light) {
+  .langs button[aria-pressed="true"] { color: #fff; }
+}
+h1 { font-size: 30px; line-height: 1.25; letter-spacing: -0.02em; margin: 0 0 8px; }
+h2 { font-size: 21px; line-height: 1.3; letter-spacing: -0.01em; margin: 44px 0 12px; }
+p, ul, ol { margin: 0 0 16px; }
+ul, ol { padding-left: 22px; }
+li { margin-bottom: 8px; }
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(0, 209, 255, 0.35); }
+a:hover { border-bottom-color: var(--accent); }
+code {
+  font-family: var(--mono); font-size: 0.86em;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 3px; padding: 1px 5px;
+  overflow-wrap: anywhere;
+}
+.meta {
+  font-family: var(--mono); font-size: 12px; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--muted);
+  margin: 0 0 32px; padding-bottom: 24px; border-bottom: 1px solid var(--border);
+}
+.meta div { margin-bottom: 4px; }
+.lede { font-size: 19px; color: var(--text); }
+.table-scroll { overflow-x: auto; margin: 0 0 20px; -webkit-overflow-scrolling: touch; }
+table { border-collapse: collapse; width: 100%; font-size: 15px; min-width: 460px; }
+th, td { text-align: left; vertical-align: top; padding: 10px 14px 10px 0; border-bottom: 1px solid var(--border); }
+th {
+  font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+  letter-spacing: 0.07em; color: var(--muted); font-weight: 500;
+  border-bottom-color: var(--text);
+}
+.note {
+  background: var(--surface); border: 1px solid var(--border);
+  border-left: 2px solid var(--accent); border-radius: 0 6px 6px 0;
+  padding: 16px 18px; margin: 0 0 20px;
+}
+.note p:last-child { margin-bottom: 0; }
+footer {
+  margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--border);
+  font-family: var(--mono); font-size: 12px; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--muted);
+}
+section[hidden] { display: none; }
+@media (max-width: 520px) {
+  body { font-size: 16px; }
+  h1 { font-size: 26px; }
+  h2 { font-size: 19px; }
+}
+</style>
+<noscript><style>section[hidden]{display:block!important}.langs{display:none}</style></noscript>
+</head>
+<body>
+
+<header class="bar">
+  <div class="wrap">
+    <div class="brand">Shore<span>Read</span></div>
+    <div class="langs" id="langs">
+      <button type="button" data-lang="en" aria-pressed="true">English</button>
+      <button type="button" data-lang="ru" aria-pressed="false">Русский</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section id="en" lang="en">
+  <h1>ShoreRead Privacy Policy</h1>
+  <div class="meta">
+    <div>Effective date — 6 November 2026</div>
+    <div>Application — ShoreRead (<code>com.shoreread.app</code>)</div>
+    <div>English is the primary version</div>
+  </div>
+
+  <h2>Summary</h2>
+  <p class="lede">ShoreRead collects no personal data. There are no accounts, no advertising and no analytics. Everything you configure stays on your device.</p>
+
+  <h2>Data we collect</h2>
+  <p><strong>None.</strong> The app has no backend, no user accounts and no tracking or analytics of any kind.</p>
+
+  <h2>Data stored on your device</h2>
+  <ul>
+    <li>Saved and custom spots, your chosen language, and your alert thresholds — in the browser engine's local storage.</li>
+    <li>Up to 72 hours of cached forecast — in IndexedDB. It expires and clears itself.</li>
+    <li>Alert thresholds are additionally mirrored into the app's own private Android preferences, because the background worker that checks them runs outside the web engine.</li>
+  </ul>
+  <p>All of it is local, and all of it is removed when you uninstall the app. Clear it any time via Android Settings → Apps → ShoreRead → Storage → Clear data.</p>
+
+  <h2>Network requests</h2>
+  <p>The app talks to three third parties. Every connection uses HTTPS. No device identifier, advertising ID or account identifier is ever sent, because the app has none.</p>
+  <div class="table-scroll">
+  <table>
+    <thead><tr><th>Host</th><th>What is sent</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td><code>marine-api.open-meteo.com</code></td><td>The latitude and longitude of the selected spot</td><td>Waves, swell, wave period, sea surface temperature, sea level</td></tr>
+      <tr><td><code>api.open-meteo.com</code></td><td>The latitude and longitude of the selected spot, or of a beach you are adding</td><td>Wind, air temperature, UV index, weather code; land elevation when you add your own beach</td></tr>
+      <tr><td><code>geocoding-api.open-meteo.com</code></td><td><strong>The place name you type</strong> into the search box, plus your interface language</td><td>Finding a beach by name</td></tr>
+      <tr><td><code>server.arcgisonline.com</code> (Esri / ArcGIS)</td><td>Map tile coordinates — which is to say the area of the world you are looking at — together with your IP address, as in any web request</td><td>The dark base map behind the spot markers</td></tr>
+      <tr><td><code>fonts.googleapis.com</code>, <code>fonts.gstatic.com</code> (Google)</td><td>A standard web font request, which carries your IP address</td><td>The Inter and JetBrains Mono text fonts</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="note">
+    <p>Two clarifications, because they are easy to get wrong:</p>
+    <ul>
+      <li><strong>Your IP address is visible to each of these hosts.</strong> That is unavoidable in any network request and is not something the app sends deliberately, but it is a real disclosure and it is named here rather than glossed over.</li>
+      <li><strong>The map is a third-party request.</strong> Opening the map view loads tiles from Esri's servers, which means Esri receives your IP address and the coordinates of the area you are panning over. If you never open the map, no tile request is made.</li>
+    </ul>
+  </div>
+  <p>The icon font is <strong>not</strong> a network request: Material Symbols Outlined is bundled with the app and renders offline. Only the two text fonts come from Google.</p>
+  <p>These services handle requests under their own policies: <a href="https://open-meteo.com/en/terms" rel="noopener">Open-Meteo</a>, <a href="https://www.esri.com/en-us/privacy/overview" rel="noopener">Esri</a>, <a href="https://policies.google.com/privacy" rel="noopener">Google</a>.</p>
+
+  <h2>Notifications</h2>
+  <p>Alerts are optional and off until you set them up.</p>
+  <ul>
+    <li>The app asks for the Android notification permission (<code>POST_NOTIFICATIONS</code>). If you decline, nothing breaks: the rest of the app works unchanged and no notification is ever posted.</li>
+    <li><strong>Your thresholds are stored only on your device</strong> — the wave height, water temperature and wind speed you choose, and which beaches you want watched. There is no server, no account and no sync. Nothing about your thresholds or your beaches leaves the device.</li>
+    <li>To check them, a background worker runs on your device roughly every three hours while the app is closed, and only while the device has a network connection. It requests a forecast for your watched beaches from Open-Meteo — the same coordinates-only request described above — and compares the numbers locally.</li>
+    <li>A notification tells you that conditions matched the numbers <strong>you</strong> set. It never tells you that a beach is safe. The safety verdict is computed only inside the app, on fresh data, when you open it.</li>
+  </ul>
+
+  <h2>Permissions</h2>
+  <div class="table-scroll">
+  <table>
+    <thead><tr><th>Permission</th><th>Why</th><th>Required</th></tr></thead>
+    <tbody>
+      <tr><td><code>INTERNET</code></td><td>Downloading the forecast</td><td>Yes</td></tr>
+      <tr><td><code>ACCESS_NETWORK_STATE</code></td><td>Switching to offline mode when connectivity is lost</td><td>Yes</td></tr>
+      <tr><td><code>ACCESS_COARSE_LOCATION</code></td><td>Optional — finds the nearest beach in the catalogue when you tap the locate button</td><td>No</td></tr>
+      <tr><td><code>POST_NOTIFICATIONS</code></td><td>Optional — threshold alerts only</td><td>No</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Approximate location is requested only when you tap the locate button. The coordinates are used on the device to pick the nearest beach from the catalogue, and are then used exactly as any beach's coordinates are: sent to Open-Meteo to fetch that beach's forecast. They are not stored and are not sent anywhere else. The app is fully usable if you decline: you can always browse or search for beaches by name. <strong>The app does not request precise location (<code>ACCESS_FINE_LOCATION</code>).</strong></p>
+
+  <h2>Children</h2>
+  <p>ShoreRead is not directed at children under 13, and its Google Play target age group is 13 and over. It collects no data from anyone, children included.</p>
+
+  <h2>Your rights</h2>
+  <p>We hold no data about you, so there is nothing to export, correct or delete on request. Your data lives on your device and is yours alone.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the effective date above is updated and the new version is published at this same address. Material changes are noted in the release notes on Google Play.</p>
+
+  <h2>Disclaimer</h2>
+  <p>ShoreRead provides forecast information and <strong>is not a rescue service</strong>. Wave, tide and water temperature data are indicative and may differ from actual conditions. It does not replace warnings from local authorities, lifeguard services or beach flags. Any decision to enter the water is your own.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:kz.xavri@gmail.com">kz.xavri@gmail.com</a></p>
+</section>
+
+<section id="ru" lang="ru" hidden>
+  <h1>Политика конфиденциальности ShoreRead</h1>
+  <div class="meta">
+    <div>Дата вступления в силу — 6 ноября 2026 г.</div>
+    <div>Приложение — ShoreRead (<code>com.shoreread.app</code>)</div>
+    <div>Перевод; основная версия — английская</div>
+  </div>
+
+  <h2>Коротко</h2>
+  <p class="lede">ShoreRead не собирает персональные данные, не требует регистрации, не показывает рекламу и не использует аналитику. Всё, что вы настраиваете в приложении, остаётся на вашем устройстве.</p>
+
+  <h2>1. Какие данные мы собираем</h2>
+  <p><strong>Никаких.</strong> Мы не собираем, не храним на своих серверах и не передаём третьим лицам персональные данные. У приложения нет учётных записей, нет серверной части и нет систем аналитики или трекинга.</p>
+
+  <h2>2. Что хранится на вашем устройстве</h2>
+  <p>Эти данные никогда не покидают устройство и удаляются вместе с приложением:</p>
+  <div class="table-scroll">
+  <table>
+    <thead><tr><th>Данные</th><th>Где хранится</th><th>Зачем</th></tr></thead>
+    <tbody>
+      <tr><td>Сохранённые и свои пляжи, язык интерфейса</td><td>Локальное хранилище браузерного движка</td><td>Быстрый доступ к вашим локациям</td></tr>
+      <tr><td>Кэш прогноза на 72 часа</td><td>IndexedDB</td><td>Работа без связи; истекает автоматически</td></tr>
+      <tr><td>Пороги оповещений и список отслеживаемых пляжей</td><td>Локальное хранилище движка <strong>и</strong> закрытые настройки Android-приложения</td><td>Фоновая проверка работает вне веб-движка</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Очистить всё можно в системных настройках Android: «Приложения» → ShoreRead → «Хранилище» → «Очистить данные».</p>
+
+  <h2>3. Куда приложение обращается по сети</h2>
+  <p>Приложение обращается к трём сторонним сервисам. Все соединения защищены HTTPS. Идентификаторы устройства, рекламные ID и сведения о вас не передаются — их у приложения просто нет.</p>
+  <div class="table-scroll">
+  <table>
+    <thead><tr><th>Сервис</th><th>Что передаётся</th><th>Зачем</th></tr></thead>
+    <tbody>
+      <tr><td><code>marine-api.open-meteo.com</code></td><td>Широта и долгота выбранного спота</td><td>Волны, свелл, период волны, температура воды, уровень моря</td></tr>
+      <tr><td><code>api.open-meteo.com</code></td><td>Широта и долгота спота или добавляемого пляжа</td><td>Ветер, температура воздуха, УФ-индекс, код погоды; высота рельефа при добавлении своего пляжа</td></tr>
+      <tr><td><code>geocoding-api.open-meteo.com</code></td><td><strong>Текст, который вы вводите в поиск</strong>, и язык интерфейса</td><td>Поиск пляжа по названию</td></tr>
+      <tr><td><code>server.arcgisonline.com</code> (Esri / ArcGIS)</td><td>Координаты тайлов карты, то есть область, которую вы смотрите, вместе с вашим IP-адресом — как в любом сетевом запросе</td><td>Тёмная подложка карты под маркерами спотов</td></tr>
+      <tr><td><code>fonts.googleapis.com</code>, <code>fonts.gstatic.com</code> (Google)</td><td>Стандартный запрос шрифта, который несёт ваш IP-адрес</td><td>Текстовые шрифты Inter и JetBrains Mono</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="note">
+    <p>Два уточнения, потому что их легко потерять:</p>
+    <ul>
+      <li><strong>Ваш IP-адрес виден каждому из этих сервисов.</strong> Это неизбежно для любого сетевого запроса, приложение не отправляет его намеренно, но это реальное раскрытие, и оно названо здесь прямо.</li>
+      <li><strong>Карта — это сторонний запрос.</strong> При открытии карты тайлы загружаются с серверов Esri, то есть Esri получает ваш IP-адрес и координаты области, по которой вы перемещаетесь. Если вы не открываете карту, запросов тайлов нет.</li>
+    </ul>
+  </div>
+  <p>Иконочный шрифт <strong>не</strong> даёт сетевого запроса: Material Symbols Outlined поставляется внутри приложения и работает без связи. Из Google приходят только два текстовых шрифта.</p>
+  <p>Эти сервисы обрабатывают запросы по собственным политикам: <a href="https://open-meteo.com/en/terms" rel="noopener">Open-Meteo</a>, <a href="https://www.esri.com/en-us/privacy/overview" rel="noopener">Esri</a>, <a href="https://policies.google.com/privacy" rel="noopener">Google</a>.</p>
+
+  <h2>4. Уведомления</h2>
+  <p>Оповещения необязательны и не работают, пока вы их не настроите.</p>
+  <ul>
+    <li>Приложение запрашивает системное разрешение на уведомления (<code>POST_NOTIFICATIONS</code>). Если вы откажете, ничего не сломается: остальное работает как обычно, уведомления просто не приходят.</li>
+    <li><strong>Пороги хранятся только на вашем устройстве</strong> — высота волны, температура воды и скорость ветра, которые вы задали, и список пляжей для наблюдения. Сервера нет, учётной записи нет, синхронизации нет. Ни пороги, ни список пляжей устройство не покидают.</li>
+    <li>Для проверки на устройстве примерно раз в три часа запускается фоновая задача — пока приложение закрыто и только при наличии сети. Она запрашивает прогноз по вашим пляжам у Open-Meteo (тот же запрос по координатам, что описан выше) и сравнивает числа локально.</li>
+    <li>Уведомление сообщает, что условия совпали с <strong>вашими</strong> порогами. Оно никогда не говорит, что купаться безопасно. Вердикт считается только внутри приложения, на свежих данных, когда вы его открываете.</li>
+  </ul>
+
+  <h2>5. Разрешения</h2>
+  <div class="table-scroll">
+  <table>
+    <thead><tr><th>Разрешение</th><th>Зачем</th><th>Обязательное</th></tr></thead>
+    <tbody>
+      <tr><td>Интернет (<code>INTERNET</code>)</td><td>Загрузка прогноза</td><td>Да</td></tr>
+      <tr><td>Состояние сети (<code>ACCESS_NETWORK_STATE</code>)</td><td>Переключение в офлайн-режим</td><td>Да</td></tr>
+      <tr><td>Примерное местоположение (<code>ACCESS_COARSE_LOCATION</code>)</td><td>Поиск ближайшего пляжа в каталоге</td><td>Нет</td></tr>
+      <tr><td>Уведомления (<code>POST_NOTIFICATIONS</code>)</td><td>Только оповещения по порогам</td><td>Нет</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Разрешение на примерное местоположение запрашивается только при нажатии кнопки поиска ближайшего пляжа. Координаты используются на устройстве, чтобы выбрать ближайший пляж из каталога, и далее используются так же, как координаты любого пляжа: уходят в Open-Meteo за прогнозом по нему. Они не сохраняются и никуда больше не передаются. Приложение полностью функционально и без этого разрешения: любой пляж можно выбрать из каталога или найти поиском. <strong>Точное местоположение (<code>ACCESS_FINE_LOCATION</code>) приложение не запрашивает.</strong></p>
+
+  <h2>6. Дети</h2>
+  <p>ShoreRead не адресовано детям младше 13 лет, и его возрастная аудитория в Google Play — 13 лет и старше. Приложение не собирает данные ни от кого, включая детей.</p>
+
+  <h2>7. Ваши права</h2>
+  <p>Поскольку мы не собираем и не храним ваши данные, нам нечего вам передавать, исправлять или удалять по запросу. Все данные под вашим полным контролем: они находятся на устройстве и удаляются вместе с приложением.</p>
+
+  <h2>8. Изменения политики</h2>
+  <p>При изменении политики мы обновим дату вступления в силу и опубликуем новую версию по этому адресу. Существенные изменения будут отмечены в описании обновления в Google Play.</p>
+
+  <h2>9. Ограничение ответственности</h2>
+  <p>ShoreRead предоставляет прогностическую информацию и <strong>не является службой спасения</strong>. Данные о волнах, приливах и температуре воды носят справочный характер и могут отличаться от фактических условий. Приложение не заменяет предупреждения местных властей, сигналы спасательных служб и флаги на пляжах. Решение о входе в воду вы принимаете самостоятельно и под свою ответственность.</p>
+
+  <h2>10. Контакты</h2>
+  <p>Вопросы по этой политике: <a href="mailto:kz.xavri@gmail.com">kz.xavri@gmail.com</a></p>
+</section>
+
+<footer>ShoreRead · <a href="mailto:kz.xavri@gmail.com">kz.xavri@gmail.com</a></footer>
+
+</main>
+
+<script>
+(function () {
+  var sections = { en: document.getElementById('en'), ru: document.getElementById('ru') };
+  var buttons = Array.prototype.slice.call(document.querySelectorAll('#langs button'));
+  function show(lang) {
+    Object.keys(sections).forEach(function (key) { sections[key].hidden = (key !== lang); });
+    buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.lang === lang)); });
+    document.documentElement.lang = lang;
+    try { localStorage.setItem('shoreread.policy.lang', lang); } catch (e) {}
+  }
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () { show(b.dataset.lang); window.scrollTo(0, 0); });
+  });
+  var saved = null;
+  try { saved = localStorage.getItem('shoreread.policy.lang'); } catch (e) {}
+  var initial = saved || ((navigator.language || 'en').toLowerCase().indexOf('ru') === 0 ? 'ru' : 'en');
+  show(initial);
+})();
+</script>
+
+</body>
+</html>
