@@ -3,7 +3,7 @@
 The published privacy policy for **ShoreRead** (`com.shoreread.app`), an Android
 app that answers one question: can I swim here right now?
 
-- Live page: https://REPLACE-WITH-PAGES-URL/
+- Live page: https://xavri.github.io/shoreread-privacy/
 - Contact: kz.xavri@gmail.com
 
 `index.html` is the whole site — a single self-contained page, English and
