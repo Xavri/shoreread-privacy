@@ -125,7 +125,7 @@ section[hidden] { display: none; }
 <section id="en" lang="en">
   <h1>ShoreRead Privacy Policy</h1>
   <div class="meta">
-    <div>Effective date — 6 November 2026</div>
+    <div>Effective date — 7 November 2026</div>
     <div>Application — ShoreRead (<code>com.shoreread.app</code>)</div>
     <div>English is the primary version</div>
   </div>
@@ -154,7 +154,6 @@ section[hidden] { display: none; }
       <tr><td><code>api.open-meteo.com</code></td><td>The latitude and longitude of the selected spot, or of a beach you are adding</td><td>Wind, air temperature, UV index, weather code; land elevation when you add your own beach</td></tr>
       <tr><td><code>geocoding-api.open-meteo.com</code></td><td><strong>The place name you type</strong> into the search box, plus your interface language</td><td>Finding a beach by name</td></tr>
       <tr><td><code>server.arcgisonline.com</code> (Esri / ArcGIS)</td><td>Map tile coordinates — which is to say the area of the world you are looking at — together with your IP address, as in any web request</td><td>The dark base map behind the spot markers</td></tr>
-      <tr><td><code>fonts.googleapis.com</code>, <code>fonts.gstatic.com</code> (Google)</td><td>A standard web font request, which carries your IP address</td><td>The Inter and JetBrains Mono text fonts</td></tr>
     </tbody>
   </table>
   </div>
@@ -165,8 +164,8 @@ section[hidden] { display: none; }
       <li><strong>The map is a third-party request.</strong> Opening the map view loads tiles from Esri's servers, which means Esri receives your IP address and the coordinates of the area you are panning over. If you never open the map, no tile request is made.</li>
     </ul>
   </div>
-  <p>The icon font is <strong>not</strong> a network request: Material Symbols Outlined is bundled with the app and renders offline. Only the two text fonts come from Google.</p>
-  <p>These services handle requests under their own policies: <a href="https://open-meteo.com/en/terms" rel="noopener">Open-Meteo</a>, <a href="https://www.esri.com/en-us/privacy/overview" rel="noopener">Esri</a>, <a href="https://policies.google.com/privacy" rel="noopener">Google</a>.</p>
+  <p><strong>No font is a network request.</strong> Every typeface the app draws with — Inter, JetBrains Mono and the Material Symbols icons — is bundled inside the app and renders offline. Until 7 November 2026 the two text fonts were fetched from Google’s font servers on each cold start; they are now served by the app itself, and that request is gone. The app does not contact Google at all.</p>
+  <p>These services handle requests under their own policies: <a href="https://open-meteo.com/en/terms" rel="noopener">Open-Meteo</a>, <a href="https://www.esri.com/en-us/privacy/overview" rel="noopener">Esri</a>.</p>
 
   <h2>Notifications</h2>
   <p>Alerts are optional and off until you set them up.</p>
@@ -210,7 +209,7 @@ section[hidden] { display: none; }
 <section id="ru" lang="ru" hidden>
   <h1>Политика конфиденциальности ShoreRead</h1>
   <div class="meta">
-    <div>Дата вступления в силу — 6 ноября 2026 г.</div>
+    <div>Дата вступления в силу — 7 ноября 2026 г.</div>
     <div>Приложение — ShoreRead (<code>com.shoreread.app</code>)</div>
     <div>Перевод; основная версия — английская</div>
   </div>
@@ -245,7 +244,6 @@ section[hidden] { display: none; }
       <tr><td><code>api.open-meteo.com</code></td><td>Широта и долгота спота или добавляемого пляжа</td><td>Ветер, температура воздуха, УФ-индекс, код погоды; высота рельефа при добавлении своего пляжа</td></tr>
       <tr><td><code>geocoding-api.open-meteo.com</code></td><td><strong>Текст, который вы вводите в поиск</strong>, и язык интерфейса</td><td>Поиск пляжа по названию</td></tr>
       <tr><td><code>server.arcgisonline.com</code> (Esri / ArcGIS)</td><td>Координаты тайлов карты, то есть область, которую вы смотрите, вместе с вашим IP-адресом — как в любом сетевом запросе</td><td>Тёмная подложка карты под маркерами спотов</td></tr>
-      <tr><td><code>fonts.googleapis.com</code>, <code>fonts.gstatic.com</code> (Google)</td><td>Стандартный запрос шрифта, который несёт ваш IP-адрес</td><td>Текстовые шрифты Inter и JetBrains Mono</td></tr>
     </tbody>
   </table>
   </div>
@@ -256,8 +254,8 @@ section[hidden] { display: none; }
       <li><strong>Карта — это сторонний запрос.</strong> При открытии карты тайлы загружаются с серверов Esri, то есть Esri получает ваш IP-адрес и координаты области, по которой вы перемещаетесь. Если вы не открываете карту, запросов тайлов нет.</li>
     </ul>
   </div>
-  <p>Иконочный шрифт <strong>не</strong> даёт сетевого запроса: Material Symbols Outlined поставляется внутри приложения и работает без связи. Из Google приходят только два текстовых шрифта.</p>
-  <p>Эти сервисы обрабатывают запросы по собственным политикам: <a href="https://open-meteo.com/en/terms" rel="noopener">Open-Meteo</a>, <a href="https://www.esri.com/en-us/privacy/overview" rel="noopener">Esri</a>, <a href="https://policies.google.com/privacy" rel="noopener">Google</a>.</p>
+  <p><strong>Ни один шрифт не даёт сетевого запроса.</strong> Все начертания, которыми рисует приложение — Inter, JetBrains Mono и иконочный Material Symbols, — поставляются внутри приложения и работают без связи. До 7 ноября 2026 два текстовых шрифта загружались с серверов Google при каждом холодном старте; теперь их раздаёт само приложение, и этого запроса больше нет. К Google приложение не обращается вообще.</p>
+  <p>Эти сервисы обрабатывают запросы по собственным политикам: <a href="https://open-meteo.com/en/terms" rel="noopener">Open-Meteo</a>, <a href="https://www.esri.com/en-us/privacy/overview" rel="noopener">Esri</a>.</p>
 
   <h2>4. Уведомления</h2>
   <p>Оповещения необязательны и не работают, пока вы их не настроите.</p>
